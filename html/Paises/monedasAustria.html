@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Monedas de Andorra</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="../../css/estilo.css">
+	<script src="../../js/monedas.js"></script>	
+</head>
+<body>
+	<h5>Monedas de 2 euros de Austria</h5>
+	<article class="portafotos">
+		<img src='../../imagenes/MonedasPais/Austria/Austria1.jpg'  
+			alt='2005. Quincuagésimo aniversario del Tratado de Estado de Austria.' name='moneda1' onclick="fotoPais('Austria', 1)"/>
+		<img src='../../imagenes/MonedasPais/Austria/Austria2.jpg'  
+			alt='2007. Quincuagésimo aniversario del Tratado de Roma.' name='moneda2' onclick="fotoPais('Austria', 2)"/>
+		<img src='../../imagenes/MonedasPais/Austria/Austria3.jpg'  
+			alt='2009. Décimo aniversario de la Unión Económica y Monetaria.' name='moneda3' onclick="fotoPais('Austria', 3)"/>
+		<img src='../../imagenes/MonedasPais/Austria/Austria4.jpg'  
+			alt='2012. Diez años de billetes y monedas en euros.' name='moneda4' onclick="fotoPais('Austria', 4)"/>
+		<img src='../../imagenes/MonedasPais/Austria/Austria5.jpg'  
+			alt='2015. Trigésimo aniversario de la bandera de la UE.' name='moneda5' onclick="fotoPais('Austria', 5)"/>
+		<img src='../../imagenes/MonedasPais/Austria/Austria6.jpg'  
+			alt='2016. 200 años del Oesterreichische Nationalbank.' name='moneda6' onclick="fotoPais('Austria', 6)"/>
+		<img src='../../imagenes/MonedasPais/Austria/Austria7.jpg'  
+			alt='2018. Centenario de la República de Austria.' name='moneda7' onclick="fotoPais('Austria', 7)"/>
+	</article> 	
+	<article class="visorfoto">
+		<div id="principal">
+			<div id="visor">
+				<img src='../../imagenes/MonedasPais/Austria/Austria1.jpg' 
+					alt='2005. Quincuagésimo aniversario del Tratado de Estado de Austria.' name='fotoVisor'/>
+				<div id="titulo">2005. Quincuagésimo aniversario del Tratado de Estado de Austria.</div>
+			</div>
+			<a class="prev" onclick="anteriorFoto('Austria')">&#10094;</a>
+			<a class="next" onclick="siguienteFoto('Austria')">&#10095;</a>
+		</div>
+	</article>
+</body>
+</html>
