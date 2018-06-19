@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Monedas de Monaco</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="../../css/estilo.css">
+	<script src="../../js/monedas.js"></script>	
+</head>
+<body>
+	<h4>Monedas de 2 euros de Monaco</h4>
+	<article class="portafotos">
+		<img src='../../imagenes/MonedasPais/Monaco/Monaco1.jpg' 
+			alt='2007. Vigésimo quinto aniversario del fallecimiento de la princesa Gracia.' name='moneda1' onclick="fotoPais('Monaco', 1)"/>
+		<img src='../../imagenes/MonedasPais/Monaco/Monaco2.jpg' 
+			alt='2011. Boda del príncipe Alberto y Charlene.' name='moneda2' onclick="fotoPais('Monaco', 2)"/>
+		<img src='../../imagenes/MonedasPais/Monaco/Monaco3.jpg' 
+			alt='2012. Quinto centenario de la soberanía de Mónaco, obtenida por Lucien I Grimaldi.' name='moneda3' onclick="fotoPais('Monaco', 3)"/>
+		<img src='../../imagenes/MonedasPais/Monaco/Monaco4.jpg' 
+			alt='2013. 20º aniversario de su adhesión a las Naciones Unidas.' name='moneda4' onclick="fotoPais('Monaco', 4)"/>
+		<img src='../../imagenes/MonedasPais/Monaco/Monaco5.jpg' 
+			alt='2015. 800 aniversario de la construcción del primer castillo en la roca.' name='moneda5' onclick="fotoPais('Monaco', 5)"/>
+		<img src='../../imagenes/MonedasPais/Monaco/Monaco6.jpg' 
+			alt='2016. 150 aniversario de la fundación de Monte Carlo por Carlos III.' name='moneda6' onclick="fotoPais('Monaco', 6)"/>
+		<img src='../../imagenes/MonedasPais/Monaco/Monaco7.jpg' 
+			alt='2017. Carabiniers du Prince («Carabineros» del Príncipe).' name='moneda7' onclick="fotoPais('Monaco', 7)"/>
+	</article> 	
+	<article class="visorfoto">
+		<div id="principal">
+			<div id="visor">
+				<img src='../../imagenes/MonedasPais/Monaco/Monaco1.jpg' 
+					alt='2007. Vigésimo quinto aniversario del fallecimiento de la princesa Gracia.' name='fotoVisor'/>
+				<div id="titulo">2007. Vigésimo quinto aniversario del fallecimiento de la princesa Gracia.</div>
+			</div>
+			<a class="prev" onclick="anteriorFoto('Monaco')">&#10094;</a>
+			<a class="next" onclick="siguienteFoto('Monaco')">&#10095;</a>
+		</div>
+	</article>
+</body>
+</html>
