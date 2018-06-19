@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Monedas de euro del año 2020</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="../../css/estilo.css">
+	<script src="../../js/monedas.js"></script>	
+</head>
+<body>
+	<h5>Monedas de 2 euros. Año 2020 (Incompleto)</h5>
+	<article class="portafotos">
+		<img src='../../imagenes/MonedasAnno/2020/20201.jpg' 
+			alt='.' name='anno1' onclick="fotoAnno('2020', 1)"/>		<img src='../../imagenes/MonedasAnno/2020/20202.jpg' 
+			alt='.' name='anno2' onclick="fotoAnno('2020', 2)"/>
+		<img src='../../imagenes/MonedasAnno/2020/20203.jpg' 
+			alt='.' name='anno3' onclick="fotoAnno('2020', 3)"/>
+		<img src='../../imagenes/MonedasAnno/2020/20204.jpg' 
+			alt='.' name='anno4' onclick="fotoAnno('2020', 4)"/>
+
+	</article>
+	<article class="visorfoto">
+		<div id="principal">
+			<div id="visor">
+				<img src='../../imagenes/MonedasAnno/2020/20201.jpg' 
+					alt='.' name='fotoVisor'/>
+				<div id="titulo">.</div>
+			</div>
+			<a class="prev" onclick="anteriorAnno('2020')">&#10094;</a>
+			<a class="next" onclick="siguienteAnno('2020')">&#10095;</a>
+		</div>
+	</article>
+</body>
+</html>
